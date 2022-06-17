@@ -1,0 +1,78 @@
+.hero {
+  background-image: url(/images/bg-hero-desktop.svg);
+  background-color: var(--very-pale-cyan);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3rem;
+
+  .logo {
+    width: 22rem;
+  }
+}
+
+.ctn-try {
+  background-color: white;
+  color: var(--very-dark-cyan);
+  padding: 1.2rem 4.5rem;
+  border-radius: 3rem;
+  font-size: 1.4rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transition: all 0.3s;
+}
+
+.ctn-try:hover,
+.ctn-try:active {
+  color: rgba(0, 37, 46, 0.6);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 0.95fr 1.05fr;
+  gap: 5rem;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+  }
+
+  &__title {
+    font-size: 4rem;
+    line-height: 1.3;
+  }
+
+  &__subtitle {
+    color: var(--very-dark-cyan);
+  }
+
+  &__img {
+    width: 100%;
+  }
+}
+
+.ctn-started {
+  color: white;
+  border-radius: 3rem;
+  padding: 1.5rem 4.5rem;
+  text-align: center;
+  width: 50%;
+  font-size: 1.4rem;
+  background-color: var(--pink);
+  transition: all 0.3s;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.ctn-started:hover,
+.ctn-started:active {
+  background-color: rgba(255, 82, 191, 0.8);
+}
