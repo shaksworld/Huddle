@@ -1,2 +1,1 @@
-# Huddle
-this is for zuri Hubble project
+https://shaksworld.github.io/Huddle/
